@@ -4,6 +4,13 @@
 var _chao = place_meeting(x, y +1, obj_chao);
 
 
+if(morto){
+	sprite_index = spr_inimigo_skeleton_death;
+	
+	exit;
+
+}
+
 if(_chao)
 {
 //
@@ -54,7 +61,7 @@ if (!pode_cair) {
     }
 }
 
-	
+		
 	
 }
 else
@@ -65,5 +72,11 @@ velh =0;
 if(velh !=0){
 	image_xscale = sign(velh);	
 }
+}
+
+//verificando se estou tomando dano
+
+if(dano && morto == false){
+	sprite_index = spr_inimigo_skeleton_hit;
 }
 

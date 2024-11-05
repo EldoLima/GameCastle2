@@ -18,6 +18,11 @@ if (_attack && !is_attacking) {
 	attack_count +=1;
     is_attacking = true;
     sprite_index = spr_player_attack1;
+	var _inimigo = instance_place(x, y+1, obj_inimigo_pai);
+	//atacando imimigo
+	if(_inimigo){
+		_inimigo.dano = true;
+	}
 	
     image_index = 0; // Reinicia a animação de ataque
 }
@@ -53,6 +58,9 @@ else {
         }
         else {
             sprite_index = spr_player_fall;
+			
+			
+			
         }
 
         // Aplico a gravidade
