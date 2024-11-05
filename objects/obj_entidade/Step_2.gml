@@ -1,5 +1,7 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
+/// @description Inserir descrição aqui
+// Você pode escrever seu código neste editor
 
 //checando a colisão horizontal
  var _col = instance_place(x + velh, y, obj_chao);
@@ -26,7 +28,7 @@ if(_col)
 x += velh;
 
 //checando a colisão horizontal
-var _col = instance_place(x,y + velv, obj_chao);
+_col = instance_place(x,y + velv, obj_chao);
 if(_col)
 {
 	if(velv > 0)

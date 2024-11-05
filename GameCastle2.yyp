@@ -39,11 +39,13 @@
   "resources":[
     {"id":{"name":"obj_bear_trap","path":"objects/obj_bear_trap/obj_bear_trap.yy",},},
     {"id":{"name":"obj_chao","path":"objects/obj_chao/obj_chao.yy",},},
+    {"id":{"name":"obj_entidade","path":"objects/obj_entidade/obj_entidade.yy",},},
     {"id":{"name":"obj_inimigo_skeleton","path":"objects/obj_inimigo_skeleton/obj_inimigo_skeleton.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"spr_bear_trap","path":"sprites/spr_bear_trap/spr_bear_trap.yy",},},
     {"id":{"name":"spr_chao","path":"sprites/spr_chao/spr_chao.yy",},},
+    {"id":{"name":"spr_inimigo_skeleton_walk","path":"sprites/spr_inimigo_skeleton_walk/spr_inimigo_skeleton_walk.yy",},},
     {"id":{"name":"spr_inimigo_skeleton","path":"sprites/spr_inimigo_skeleton/spr_inimigo_skeleton.yy",},},
     {"id":{"name":"spr_level","path":"sprites/spr_level/spr_level.yy",},},
     {"id":{"name":"spr_player_fall","path":"sprites/spr_player_fall/spr_player_fall.yy",},},
