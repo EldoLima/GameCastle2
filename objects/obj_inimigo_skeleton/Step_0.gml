@@ -17,7 +17,7 @@ if(tempo_decidir_andar <=0){
 		velh = choose(vel, -vel);
 	}
 	else{
-		velh =0;	
+		//velh =0;	
 	}
 	vel = choose(1, -1);
 		
@@ -37,6 +37,11 @@ if(tempo_decidir_andar <=0){
 	{
 		sprite_index = spr_inimigo_skeleton;
 			
+	}
+	
+	//se eu bater na parede, mudo a direção
+	if(place_meeting(x + velh, y, obj_chao)){
+		velh *=-1;
 	}
 }
 else

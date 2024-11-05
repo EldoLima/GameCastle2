@@ -33,7 +33,7 @@
   ],
   "name":"spr_inimigo_skeleton",
   "nineSlice":null,
-  "origin":9,
+  "origin":7,
   "parent":{
     "name":"Skeleton",
     "path":"folders/Sprites/Inimigos/Skeleton.yy",
@@ -115,7 +115,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":11,
+    "xorigin":12,
     "yorigin":32,
   },
   "swatchColours":null,
