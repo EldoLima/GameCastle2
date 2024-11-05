@@ -43,6 +43,19 @@ if(tempo_decidir_andar <=0){
 	if(place_meeting(x + velh, y, obj_chao)){
 		velh *=-1;
 	}
+	
+	// Verifica se o personagem pode cair
+if (!pode_cair) {
+    // Checa se não há chão na direção para onde o personagem está se movendo
+    if (!place_meeting(x + (velh*10), y + 1, obj_chao)) {
+        // Inverte a direção para evitar a queda
+        velh = -velh;
+        image_xscale = sign(velh); // Ajusta a escala da imagem para refletir a direção
+    }
+}
+
+	
+	
 }
 else
 {
